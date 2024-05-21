@@ -1,0 +1,32 @@
+{
+  "name": "use-search-params-hook",
+  "author": {
+    "name": "kady",
+    "email": "854626342@qq.com"
+  },
+  "description": "This is a React Hook for cross-component communication of [Location.Search] data.",
+  "keywords": [
+    "React", "React Hook", "Location Search"
+  ],
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "vite build && tsc --project tsconfig.build.json"
+  },
+  "main": "./dist/use-search-params.umd.js",
+  "module": "./dist/use-search-params.es.js",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

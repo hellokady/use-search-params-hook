@@ -1,0 +1,1 @@
+> This is a React Hook for cross-component communication of [Location.Search] data
