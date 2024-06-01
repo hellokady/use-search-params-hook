@@ -9,7 +9,7 @@
     "React", "React Hook", "Location Search"
   ],
   "private": false,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "build": "vite build && tsc --project tsconfig.build.json"
@@ -20,6 +20,13 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellokady/use-search-params-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hellokady/use-search-params-hook/issues"
+  },
   "dependencies": {
     "react": "^18.2.0"
   },

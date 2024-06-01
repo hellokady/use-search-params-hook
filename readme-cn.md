@@ -1,16 +1,16 @@
-### Description
+### 介绍
 
 ```text
-  This function is a custom hook that handles URL query parameters. It takes a generic parameter fields defining the types of query parameters and an optional channelId for event channel to listen for parameter updates. It returns an array with two elements: search, an object containing the current query parameter values and a method to convert them to a string, and update, a function to update the query parameters.
+  该函数是一个自定义的hooks，用于处理URL的查询参数。它接收一个类型参数fields定义了查询参数的键值对类型，和一个可选的channelId用于监听参数更新的事件频道。返回一个数组，包含两个元素：search对象包含当前查询参数的值和将其转换为字符串的方法，update函数用于更新查询参数
 ```
 
-### Useage
+### 使用
 
 ```tsx
 import { useState, useEffect } from "react";
 import { useSearchParams } from "use-search-params-hook";
 
-/** Note: This object is used to guarantee that the datatype */
+/** 注意：该对象是用于保证数据类型 */
 const DEFAULT_VALIDATE = {
   name: "",
   age: 10,
